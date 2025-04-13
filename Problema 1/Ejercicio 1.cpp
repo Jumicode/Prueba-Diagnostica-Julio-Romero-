@@ -78,7 +78,7 @@ bool validarEnPassant(const string &campo) {
     char rank = campo[1];
     if (file < 'a' || file > 'h') return false;
     if (!isdigit(rank)) return false; // el dígito
-    // Aunque se podría restringir el dígito a 3 o 6, aquí validamos de forma general
+
     return true;
 }
 
